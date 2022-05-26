@@ -1,4 +1,4 @@
 Trabalho  em  trio !!!
 Edilio Ricardo de Lima Junior
-Eduar  Rech
+Eduardo Rech
 João Vitor Vitosoaski

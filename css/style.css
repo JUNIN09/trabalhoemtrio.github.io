@@ -30,27 +30,28 @@ header {
   padding: 10px;
 }
 
-.nav .a {
+.nav .nav1 {
   flex: 1;
   text-align: center;
 }
 
-.nav .b {
+.nav .nav2 {
+  flex: 1;
+  text-align: center;
+  background-color: red;
+}
+
+.nav .nav3 {
   flex: 1;
   text-align: center;
 }
 
-.nav .c {
+.nav .nav4 {
   flex: 1;
   text-align: center;
 }
 
-.nav .d {
-  flex: 1;
-  text-align: center;
-}
-
-.nav .e {
+.nav .nav5 {
   flex: 1;
   text-align: center;
 }

@@ -10,10 +10,37 @@ body /*definiçoes do body*/ {
   font-family: var(--fonte);
 }
 
-header {
-  text-align: center;
+.hea /*definições gerais do header*/ {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   max-width: 100%;
-  max-height: 100%;
+  flex-flow: row;
+  /* border: 1px solid black; */
+  margin-bottom: 10px;
+}
+
+.hea div /*definições especficas das divs em geral*/ {
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+.hea .hea1 {
+  flex: 0.5;
+  text-align: right;
+  padding-left: 0px;
+}
+
+.hea .hea2 {
+  flex: 9;
+  text-align: center;
+}
+
+.hea .hea3 {
+  flex: 1;
+  text-align: left;
+  padding-right: 0px;
 }
 
 .nav /*definições gerais da nav*/ {

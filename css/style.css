@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
 
-:root {
+:root /*variaveis*/ {
   --cor-do-fundo: gray;
   --fonte: "Open Sans", sans-serif;
 }
 
-body {
+body /*definiçoes do body*/ {
   background-color: var(--cor-do-fundo);
   font-family: var(--fonte);
 }
@@ -16,7 +16,7 @@ header {
   max-height: 100%;
 }
 
-.nav {
+.nav /*definições gerais da nav*/ {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -25,33 +25,33 @@ header {
   border: 1px solid black;
 }
 
-.nav div {
+.nav div /*definições especficas das divs em geral*/ {
   border: 1px solid black;
   padding: 10px;
 }
 
-.nav .nav1 {
+.nav .nav1 /*nav aba 1*/ {
   flex: 1;
   text-align: center;
 }
 
-.nav .nav2 {
+.nav .nav2 /*nav aba 2*/ {
   flex: 1;
   text-align: center;
   background-color: red;
 }
 
-.nav .nav3 {
+.nav .nav3 /*nav aba 3*/ {
   flex: 1;
   text-align: center;
 }
 
-.nav .nav4 {
+.nav .nav4 /*nav aba 4*/ {
   flex: 1;
   text-align: center;
 }
 
-.nav .nav5 {
+.nav .nav5 /*nav aba 5*/ {
   flex: 1;
   text-align: center;
 }

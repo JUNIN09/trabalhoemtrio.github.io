@@ -17,21 +17,40 @@ header {
 }
 
 .nav {
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   max-width: 100%;
-  display: inline;
+  flex-flow: row;
+  border: 1px solid black;
+}
+
+.nav div {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.nav .a {
+  flex: 1;
   text-align: center;
 }
 
-.nav ul {
-  border: 3px solid black;
-  padding: 4px;
+.nav .b {
+  flex: 1;
+  text-align: center;
 }
 
-.nav ul li {
-  display: inline-flex;
-  border: 2px solid black;
-  margin: 0px;
-  max-width: 100%;
-  padding: 0 6%;
+.nav .c {
+  flex: 1;
+  text-align: center;
+}
+
+.nav .d {
+  flex: 1;
+  text-align: center;
+}
+
+.nav .e {
+  flex: 1;
+  text-align: center;
 }

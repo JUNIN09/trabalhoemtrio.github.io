@@ -98,9 +98,11 @@ body /*definiçoes do body*/ {
 }
 
 .art .box1 {
+  background-color: aqua;
 }
 
 .art .box2 {
+  background-color: brown;
 }
 
 .art .box3 {

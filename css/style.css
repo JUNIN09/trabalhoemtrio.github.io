@@ -26,18 +26,18 @@ body /*definiçoes do body*/ {
   padding: 10px;
 }
 
-.hea .hea1 {
+.hea .hea1 /*defifiniçoes do header1*/ {
   flex: 0.5;
   text-align: right;
   padding-left: 0px;
 }
 
-.hea .hea2 {
-  flex: 9;
+.hea .hea2/*defifiniçoes do header2*/ {
+  flex: 10;
   text-align: center;
 }
 
-.hea .hea3 {
+.hea .hea3/*defifiniçoes do header3*/ {
   flex: 1;
   text-align: left;
   padding-right: 0px;
@@ -50,6 +50,7 @@ body /*definiçoes do body*/ {
   max-width: 100%;
   flex-flow: row;
   border: 1px solid black;
+  margin-bottom: 10px;
 }
 
 .nav div /*definições especficas das divs em geral*/ {
@@ -81,4 +82,27 @@ body /*definiçoes do body*/ {
 .nav .nav5 /*nav aba 5*/ {
   flex: 1;
   text-align: center;
+}
+
+.art {
+  border: 1px solid black;
+  display: grid;
+
+  grid-template-columns: 3fr 3fr 1fr;
+  grid-gap: 10px;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.art div {
+  border: 2px solid black;
+}
+
+.art .box1 {
+}
+
+.art .box2 {
+}
+
+.art .box3 {
+  grid-row: 1/4;
 }

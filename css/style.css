@@ -189,15 +189,38 @@ body /*definiçoes do body*/ {
 
 .box3 .asi .asi1 /*aside aba 1*/ {
   flex: 1;
-  background-color: ;
+  background: linear-gradient(
+    90deg,
+    rgba(122, 255, 13, 1) 0%,
+    rgba(222, 157, 11, 1) 25%,
+    rgba(245, 15, 0, 1) 50%,
+    rgba(97, 11, 222, 1) 75%,
+    rgba(2, 206, 250, 1) 100%
+  );
 }
 
 .box3 .asi .asi2 /*aside aba 2*/ {
   flex: 1;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 73, 97, 1) 0%,
+    rgba(69, 189, 230, 1) 25%,
+    rgba(0, 168, 224, 1) 50%,
+    rgba(29, 80, 97, 1) 75%,
+    rgba(0, 130, 173, 1) 100%
+  );
 }
 
 .box3 .asi .asi3 /*aside aba 3*/ {
   flex: 1;
+  background: linear-gradient(
+    90deg,
+    rgba(148, 93, 15, 1) 0%,
+    rgba(1, 224, 68, 1) 25%,
+    rgba(224, 132, 0, 1) 50%,
+    rgba(118, 22, 224, 1) 75%,
+    rgba(74, 7, 148, 1) 100%
+  );
 }
 
 .box3 .asi .asi4 /*aside aba 4*/ {

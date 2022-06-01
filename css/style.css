@@ -220,11 +220,11 @@ body /*definiçoes do body*/ {
   flex: 1;
 }
 
-.nav div a {
+.nav div a /*definições especficas dos links*/ {
   text-decoration: none;
 }
 
-.nav1 .nave1 {
+.nav1 .nave1 /*caixa de span1*/ {
   background-color: white;
   position: fixed;
   visibility: hidden;
@@ -233,12 +233,12 @@ body /*definiçoes do body*/ {
   display: block;
 }
 
-.nav1:hover .nave1 {
+.nav1:hover .nave1 /*definição do hover span1*/ {
   position: absolute;
   visibility: visible;
 }
 
-.nav2 .nave2 {
+.nav2 .nave2 /*caixa de span2*/ {
   background-color: white;
   position: fixed;
   visibility: hidden;
@@ -247,12 +247,12 @@ body /*definiçoes do body*/ {
   display: block;
 }
 
-.nav2:hover .nave2 {
+.nav2:hover .nave2 /*definição do hover span2*/ {
   position: absolute;
   visibility: visible;
 }
 
-.nav3 .nave3 {
+.nav3 .nave3 /*caixa de span3*/ {
   background-color: white;
   position: fixed;
   visibility: hidden;
@@ -261,12 +261,12 @@ body /*definiçoes do body*/ {
   display: block;
 }
 
-.nav3:hover .nave3 {
+.nav3:hover .nave3 /*definição do hover span3*/ {
   position: absolute;
   visibility: visible;
 }
 
-.nav4 .nave4 {
+.nav4 .nave4 /*caixa de span4*/ {
   background-color: white;
   position: fixed;
   visibility: hidden;
@@ -275,12 +275,12 @@ body /*definiçoes do body*/ {
   display: block;
 }
 
-.nav4:hover .nave4 {
+.nav4:hover .nave4 /*definição do hover span4*/ {
   position: absolute;
   visibility: visible;
 }
 
-.nav5 .nave5 {
+.nav5 .nave5 /*caixa de span5*/ {
   background-color: white;
   position: fixed;
   visibility: hidden;
@@ -289,7 +289,7 @@ body /*definiçoes do body*/ {
   display: block;
 }
 
-.nav5:hover .nave5 {
+.nav5:hover .nave5 /*definição do hover span5*/ {
   position: absolute;
   visibility: visible;
 }

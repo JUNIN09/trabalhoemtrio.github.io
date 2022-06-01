@@ -206,3 +206,68 @@ body /*definiçoes do body*/ {
 .nav div a {
   text-decoration: none;
 }
+
+.nav1 .nave1 {
+  background-color: white;
+  position: fixed;
+  visibility: hidden;
+  z-index: 1;
+  width: 200px;
+}
+
+.nav1:hover .nave1 {
+  position: absolute;
+  visibility: visible;
+}
+
+.nav2 .nave2 {
+  background-color: white;
+  position: fixed;
+  visibility: hidden;
+  z-index: 1;
+  width: 200px;
+}
+
+.nav2:hover .nave2 {
+  position: absolute;
+  visibility: visible;
+}
+
+.nav3 .nave3 {
+  background-color: white;
+  position: fixed;
+  visibility: hidden;
+  z-index: 1;
+  width: 200px;
+}
+
+.nav3:hover .nave3 {
+  position: absolute;
+  visibility: visible;
+}
+
+.nav4 .nave4 {
+  background-color: white;
+  position: fixed;
+  visibility: hidden;
+  z-index: 1;
+  width: 200px;
+}
+
+.nav4:hover .nave4 {
+  position: absolute;
+  visibility: visible;
+}
+
+.nav5 .nave5 {
+  background-color: white;
+  position: fixed;
+  visibility: hidden;
+  z-index: 1;
+  width: 200px;
+}
+
+.nav5:hover .nave5 {
+  position: absolute;
+  visibility: visible;
+}

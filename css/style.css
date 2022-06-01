@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
 
 :root /*variaveis*/ {
-  --cor-do-fundo: gray;
+  --cor-do-fundo: white;
   --fonte: "Open Sans", sans-serif;
+  --corfonte: #3e3d3a;
 }
 
 body /*definiçoes do body*/ {
   background-color: var(--cor-do-fundo);
   font-family: var(--fonte);
+  color: var(--corfonte);
 }
 
 .hea /*definições gerais do header*/ {
@@ -166,4 +168,8 @@ body /*definiçoes do body*/ {
 
 .box3 .asi .asi5 /*aside aba 5*/ {
   flex: 1;
+}
+
+.nav div a {
+  text-decoration: none;
 }

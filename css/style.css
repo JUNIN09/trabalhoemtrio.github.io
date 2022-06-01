@@ -29,14 +29,14 @@ body /*definiçoes do body*/ {
 }
 
 .hea .hea1 /*defifiniçoes do header1*/ {
-  flex: 0.5;
+  flex: 1;
   text-align: right;
   padding-left: 0px;
 }
 
 .hea .hea2/*defifiniçoes do header2*/ {
-  flex: 10;
-  text-align: center;
+  flex: 6;
+  font-size: 20px;
 }
 
 .hea .hea3/*defifiniçoes do header3*/ {
@@ -51,39 +51,73 @@ body /*definiçoes do body*/ {
   justify-content: space-between;
   max-width: 100%;
   flex-flow: row;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-bottom: 10px;
 }
 
 .nav div /*definições especficas das divs em geral*/ {
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 10px;
 }
 
 .nav .nav1 /*nav aba 1*/ {
   flex: 1;
   text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(59, 89, 152, 1) 35%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .nav .nav2 /*nav aba 2*/ {
   flex: 1;
   text-align: center;
-  background-color: red;
+  background: linear-gradient(
+    208deg,
+    rgba(58, 62, 180, 1) 4%,
+    rgba(131, 58, 180, 1) 17%,
+    rgba(248, 30, 35, 1) 63%,
+    rgba(252, 176, 69, 1) 100%
+  );
 }
 
 .nav .nav3 /*nav aba 3*/ {
   flex: 1;
   text-align: center;
+  background: linear-gradient(
+    325deg,
+    rgba(79, 206, 93, 1) 13%,
+    rgba(255, 255, 255, 1) 84%
+  );
 }
 
 .nav .nav4 /*nav aba 4*/ {
   flex: 1;
   text-align: center;
+  background: linear-gradient(
+    270deg,
+    rgba(1, 1, 1, 1) 0%,
+    rgba(105, 201, 208, 1) 26%,
+    rgba(147, 216, 221, 1) 43%,
+    rgba(255, 255, 255, 1) 60%,
+    rgba(238, 29, 82, 1) 93%
+  );
 }
 
 .nav .nav5 /*nav aba 5*/ {
   flex: 1;
   text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(133, 200, 210, 1) 0%,
+    rgba(156, 186, 209, 1) 16%,
+    rgba(133, 169, 208, 1) 33%,
+    rgba(109, 147, 207, 1) 50%,
+    rgba(85, 122, 206, 1) 66%,
+    rgba(62, 93, 204, 1) 82%,
+    rgba(39, 60, 203, 1) 100%
+  );
 }
 
 .art /*definições gerais da article*/ {

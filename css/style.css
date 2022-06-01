@@ -181,13 +181,14 @@ body /*definiçoes do body*/ {
   text-align: center;
   height: 100%;
   max-height: 200px;
+  margin-top: 16px;
 }
 
 .box3 .asi .asi1 /*aside aba 1*/ {
   flex: 1;
 }
 
-.box3 .asi .asi2 /*aside aba 3*/ {
+.box3 .asi .asi2 /*aside aba 2*/ {
   flex: 1;
 }
 
@@ -203,6 +204,22 @@ body /*definiçoes do body*/ {
   flex: 1;
 }
 
+.box3 .asi .asi6 /*aside aba 6*/ {
+  flex: 1;
+}
+
+.box3 .asi .asi7 /*aside aba 7*/ {
+  flex: 1;
+}
+
+.box3 .asi .asi8 /*aside aba 8*/ {
+  flex: 1;
+}
+
+.box3 .asi .asi9 /*aside aba 9*/ {
+  flex: 1;
+}
+
 .nav div a {
   text-decoration: none;
 }
@@ -213,6 +230,7 @@ body /*definiçoes do body*/ {
   visibility: hidden;
   z-index: 1;
   width: 200px;
+  display: block;
 }
 
 .nav1:hover .nave1 {
@@ -226,6 +244,7 @@ body /*definiçoes do body*/ {
   visibility: hidden;
   z-index: 1;
   width: 200px;
+  display: block;
 }
 
 .nav2:hover .nave2 {
@@ -239,6 +258,7 @@ body /*definiçoes do body*/ {
   visibility: hidden;
   z-index: 1;
   width: 200px;
+  display: block;
 }
 
 .nav3:hover .nave3 {
@@ -252,6 +272,7 @@ body /*definiçoes do body*/ {
   visibility: hidden;
   z-index: 1;
   width: 200px;
+  display: block;
 }
 
 .nav4:hover .nave4 {
@@ -265,6 +286,7 @@ body /*definiçoes do body*/ {
   visibility: hidden;
   z-index: 1;
   width: 200px;
+  display: block;
 }
 
 .nav5:hover .nave5 {

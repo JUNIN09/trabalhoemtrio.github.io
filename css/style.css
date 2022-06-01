@@ -133,7 +133,7 @@ body /*definiçoes do body*/ {
 }
 
 .art div /*definições especficas das divs em geral*/ {
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .art .box1 /*article aba 1*/ {
@@ -175,6 +175,7 @@ body /*definiçoes do body*/ {
 
 .box3 .asi /*definições gerais da aside*/ {
   display: flex;
+  border: 1px solid black;
   flex-direction: column;
   align-content: space-around;
   justify-content: center;
@@ -182,8 +183,13 @@ body /*definiçoes do body*/ {
   max-height: 100%;
 }
 
+.box3 .asi div /*definições especficas das divs em geral*/ {
+  border: 1px solid black;
+}
+
 .box3 .asi .asi1 /*aside aba 1*/ {
   flex: 1;
+  background-color: ;
 }
 
 .box3 .asi .asi2 /*aside aba 2*/ {

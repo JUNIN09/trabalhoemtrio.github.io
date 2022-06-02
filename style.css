@@ -56,8 +56,8 @@ body /*definiçoes do body*/ {
 }
 
 .nav div /*definições especficas das divs em geral*/ {
-  border: 1px solid white;
-  padding: 10px;
+  border: 2px solid white;
+  padding-top: 4px;
 }
 
 .nav .nav1 /*nav aba 1*/ {
@@ -201,6 +201,9 @@ body /*definiçoes do body*/ {
     rgba(97, 11, 222, 1) 75%,
     rgba(2, 206, 250, 1) 100%
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box3 .asi .asi2 /*aside aba 2*/ {
@@ -213,6 +216,9 @@ body /*definiçoes do body*/ {
     rgba(29, 80, 97, 1) 75%,
     rgba(0, 130, 173, 1) 100%
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box3 .asi .asi3 /*aside aba 3*/ {
@@ -225,6 +231,9 @@ body /*definiçoes do body*/ {
     rgba(118, 22, 224, 1) 75%,
     rgba(74, 7, 148, 1) 100%
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box3 .asi .asi4 /*aside aba 4*/ {
@@ -237,6 +246,9 @@ body /*definiçoes do body*/ {
     rgba(60, 148, 0, 1) 75%,
     rgba(188, 224, 164, 1) 100%
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box3 .asi .asi5 /*aside aba 5*/ {
@@ -249,6 +261,9 @@ body /*definiçoes do body*/ {
     rgba(148, 88, 0, 1) 75%,
     rgba(224, 160, 63, 1) 100%
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box3 .asi .asi6 /*aside aba 6*/ {
@@ -261,6 +276,9 @@ body /*definiçoes do body*/ {
     rgba(224, 216, 0, 1) 75%,
     rgba(224, 0, 193, 1) 100%
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box3 .asi .asi7 /*aside aba 7*/ {
@@ -273,6 +291,9 @@ body /*definiçoes do body*/ {
     rgba(22, 224, 78, 1) 75%,
     rgba(11, 32, 224, 1) 100%
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box3 .asi .asi8 /*aside aba 8*/ {
@@ -285,6 +306,9 @@ body /*definiçoes do body*/ {
     rgba(211, 55, 219, 1) 75%,
     rgba(115, 16, 163, 1) 100%
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box3 .asi .asi9 /*aside aba 9*/ {
@@ -297,6 +321,9 @@ body /*definiçoes do body*/ {
     rgba(227, 208, 0, 1) 75%,
     rgba(189, 173, 0, 1) 100%
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav div a /*definições especficas dos links*/ {

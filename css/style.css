@@ -9,7 +9,7 @@
 body /*definiçoes do body*/ {
   background-color: var(--cor-do-fundo);
   font-family: var(--fonte);
-  color: var(--corfonte);
+  color: black;
 }
 
 .hea /*definições gerais do header*/ {
@@ -29,7 +29,7 @@ body /*definiçoes do body*/ {
 }
 
 .hea .hea1 /*defifiniçoes do header1*/ {
-  flex: 1;
+  flex: 0.1;
   text-align: right;
   padding-left: 0px;
 }
@@ -37,12 +37,13 @@ body /*definiçoes do body*/ {
 .hea .hea2/*defifiniçoes do header2*/ {
   flex: 6;
   font-size: 20px;
+  text-align: center;
 }
 
 .hea .hea3/*defifiniçoes do header3*/ {
   flex: 1;
-  text-align: left;
-  padding-right: 0px;
+  text-align: right;
+  padding-right: 10px;
 }
 
 .nav /*definições gerais da nav*/ {
@@ -133,7 +134,6 @@ body /*definiçoes do body*/ {
 }
 
 .art div /*definições especficas das divs em geral*/ {
-  /* border: 2px solid black; */
 }
 
 .art .box1 /*article aba 1*/ {

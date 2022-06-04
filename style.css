@@ -2,11 +2,11 @@
 
 :root /*variaveis*/ {
   --fonte: "Poppins", sans-serif;
-  --cor-do-fundo: #ff2121;
-  --cor-header: #006eff;
-  --cor-article: #ff6700;
-  --cor-grid: #f1f1f0;
-  --cor-footer: #006fff;
+  --cor-do-fundo: #282a36;
+  --cor-header: #90a8f0;
+  --cor-article: #44475a;
+  --cor-grid: #6272a4;
+  --cor-footer: #90a8f0;
 }
 
 :root {
@@ -14,7 +14,7 @@
   --cor-fonte-article: white;
   --cor-fonte-nav: white;
   --cor-fonte-footer: white;
-  --cor-fonte-grid: black;
+  --cor-fonte-grid: white;
 }
 
 * {
@@ -23,6 +23,24 @@
 
 body /*definiçoes do body*/ {
   background-color: var(--cor-do-fundo);
+}
+
+header {
+  margin-top: -8px;
+  position: static;
+  margin-left: -8px;
+  border-right: var(--cor-header) solid 16px;
+  z-index: 11;
+  width: 100%;
+}
+
+footer {
+  margin-bottom: -8px;
+  position: static;
+  margin-left: -8px;
+  border-right: var(--cor-footer) solid 16px;
+  z-index: 11;
+  width: 100%;
 }
 
 .hea /*definições gerais do header*/ {
@@ -35,8 +53,8 @@ body /*definiçoes do body*/ {
   /* border: 1px solid black; */
   margin-bottom: 10px;
   min-width: 550px;
+  /* border-radius: 20px; */
   background-color: var(--cor-header);
-  border-radius: 20px;
   color: var(--cor-fonte-header);
 }
 
@@ -166,6 +184,7 @@ body /*definiçoes do body*/ {
 
 .art .box1 h1 /*article aba 1, definições título*/ {
   text-align: center;
+  font-size: 25px;
 }
 
 .art .box2 /*article aba 1*/ {
@@ -186,7 +205,7 @@ body /*definiçoes do body*/ {
   justify-content: space-between;
   text-align: center;
   min-width: 550px;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   background-color: var(--cor-footer);
   color: var(--cor-fonte-footer);
 }
@@ -577,4 +596,12 @@ body /*definiçoes do body*/ {
 .hea1:hover .head1 /*definição do hover span5*/ {
   position: absolute;
   visibility: visible;
+}
+
+.box2 .sec h1 {
+  font-size: 20px;
+}
+
+.box2 .sec h3 {
+  font-size: 20px;
 }

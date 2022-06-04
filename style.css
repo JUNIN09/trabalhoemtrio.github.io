@@ -548,3 +548,17 @@ body /*definiçoes do body*/ {
   justify-content: center;
   padding-top: 21px;
 }
+
+.hea1 .head1 {
+  position: fixed;
+  visibility: hidden;
+  z-index: 5;
+  display: block;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.hea1:hover .head1 /*definição do hover span5*/ {
+  position: absolute;
+  visibility: visible;
+}

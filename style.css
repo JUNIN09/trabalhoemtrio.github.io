@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
 
 :root /*variaveis*/ {
-  --cor-do-fundo: white;
   --fonte: "Poppins", sans-serif;
-  --corfonte: #0d0d0d;
+  --cor-do-fundo: #ff2121;
+  --cor-fonte: #0d0d0d;
+  --cor-header: #006eff;
+  --cor-article: #ff6700;
+  --cor-grid: #f1f1f0;
+  --cor-footer: #006fff;
 }
 
 * {
@@ -12,8 +16,7 @@
 }
 
 body /*definiçoes do body*/ {
-  background-color: #b6caf2;
-  font-family: var(--fonte);
+  background-color: var(--cor-do-fundo);
 }
 
 .hea /*definições gerais do header*/ {
@@ -26,8 +29,9 @@ body /*definiçoes do body*/ {
   /* border: 1px solid black; */
   margin-bottom: 10px;
   min-width: 550px;
-  background-color: #3084f2;
+  background-color: var(--cor-header);
   border-radius: 20px;
+  color: whitesmoke;
 }
 
 .hea div /*definições especficas das divs em geral*/ {
@@ -150,7 +154,8 @@ body /*definiçoes do body*/ {
 
 .art .box1 /*article aba 1*/ {
   grid-area: box-1;
-  background-color: #3084f2;
+  background-color: var(--cor-article);
+  color: whitesmoke;
 }
 
 .art .box1 h1 /*article aba 1, definições título*/ {
@@ -165,6 +170,7 @@ body /*definiçoes do body*/ {
 
 .art .box3 /*article aba 1*/ {
   grid-area: box-3;
+  color: whitesmoke;
 }
 
 .foot /*definições gerais da footer*/ {
@@ -175,7 +181,8 @@ body /*definiçoes do body*/ {
   text-align: center;
   min-width: 550px;
   border-radius: 20px;
-  background-color: #3084f2;
+  background-color: var(--cor-footer);
+  color: whitesmoke;
 }
 
 .foot .foot1 /*footer aba 1*/ {
@@ -471,7 +478,7 @@ body /*definiçoes do body*/ {
   margin-bottom: 10px;
   height: 100%;
   min-width: 550px;
-  background-color: #b6caf2;
+  background-color: var(--cor-do-fundo);
 }
 
 .box2 .sec div /*definições das divs da section2*/ {
@@ -482,62 +489,62 @@ body /*definiçoes do body*/ {
 .box2 .sec .sec0 /*aba div0 da section2*/ {
   grid-area: box-0;
   text-align: center;
-  background-color: #45af47;
+  background-color: var(--cor-grid);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .box2 .sec .sec1 /*aba div1 da section2*/ {
-  background-color: #45af47;
+  background-color: var(--cor-grid);
   grid-area: box-1;
   text-align: center;
 }
 
 .box2 .sec .sec2/*aba div2 da section2*/ {
-  background-color: #45af47;
+  background-color: var(--cor-grid);
   grid-area: box-2;
   text-align: center;
 }
 
 .box2 .sec .sec3 /*aba div3 da section2*/ {
-  background-color: #45af47;
+  background-color: var(--cor-grid);
   grid-area: box-3;
   text-align: center;
 }
 
 .box2 .sec .sec4 /*aba div4 da section2*/ {
-  background-color: #45af47;
+  background-color: var(--cor-grid);
   grid-area: box-4;
   text-align: center;
 }
 
 .box2 .sec .sec5 /*aba div5 da section2*/ {
-  background-color: #45af47;
+  background-color: var(--cor-grid);
   grid-area: box-5;
   text-align: center;
 }
 
 .box2 .sec .sec6 /*aba div6 da section2*/ {
-  background-color: #45af47;
+  background-color: var(--cor-grid);
   grid-area: box-6;
   text-align: center;
 }
 
 .box2 .sec .sec7 /*aba div7 da section2*/ {
   grid-area: box-7;
-  background-color: #45af47;
+  background-color: var(--cor-grid);
   text-align: center;
 }
 
 .box2 .sec .sec8 /*aba div8 da section2*/ {
-  background-color: #45af47;
+  background-color: var(--cor-grid);
   grid-area: box-8;
   text-align: center;
 }
 
 .box2 .sec .sec9 /*aba div9 da section2*/ {
-  background-color: #45af47;
+  background-color: var(--cor-grid);
   grid-area: box-9;
   text-align: center;
 }

@@ -12,7 +12,7 @@
 }
 
 body /*definiçoes do body*/ {
-  background-color: white;
+  background-color: #b6caf2;
   font-family: var(--fonte);
 }
 
@@ -26,7 +26,7 @@ body /*definiçoes do body*/ {
   /* border: 1px solid black; */
   margin-bottom: 10px;
   min-width: 550px;
-  background-color: #f2b66d;
+  background-color: #3084f2;
   border-radius: 20px;
 }
 
@@ -150,7 +150,7 @@ body /*definiçoes do body*/ {
 
 .art .box1 /*article aba 1*/ {
   grid-area: box-1;
-  background-color: #f2b66d;
+  background-color: #3876f2;
 }
 
 .art .box2 /*article aba 1*/ {
@@ -171,7 +171,7 @@ body /*definiçoes do body*/ {
   text-align: center;
   min-width: 550px;
   border-radius: 20px;
-  background-color: #f2bf6f;
+  background-color: #3084f2;
 }
 
 .foot .foot1 /*footer aba 1*/ {
@@ -351,9 +351,10 @@ body /*definiçoes do body*/ {
   background-color: white;
   position: fixed;
   visibility: hidden;
-  z-index: 1;
+  z-index: 5;
   max-width: 18%;
   display: block;
+  border-radius: 20px;
 }
 
 .nav1:hover .nave1 /*definição do hover span1*/ {
@@ -365,9 +366,10 @@ body /*definiçoes do body*/ {
   background-color: white;
   position: fixed;
   visibility: hidden;
-  z-index: 1;
+  z-index: 5;
   max-width: 18%;
   display: block;
+  border-radius: 20px;
 }
 
 .nav2:hover .nave2 /*definição do hover span2*/ {
@@ -379,9 +381,10 @@ body /*definiçoes do body*/ {
   background-color: white;
   position: fixed;
   visibility: hidden;
-  z-index: 1;
+  z-index: 5;
   max-width: 18%;
   display: block;
+  border-radius: 20px;
 }
 
 .nav3:hover .nave3 /*definição do hover span3*/ {
@@ -393,9 +396,10 @@ body /*definiçoes do body*/ {
   background-color: white;
   position: fixed;
   visibility: hidden;
-  z-index: 1;
+  z-index: 5;
   max-width: 18%;
   display: block;
+  border-radius: 20px;
 }
 
 .nav4:hover .nave4 /*definição do hover span4*/ {
@@ -407,9 +411,10 @@ body /*definiçoes do body*/ {
   background-color: white;
   position: fixed;
   visibility: hidden;
-  z-index: 1;
+  z-index: 5;
   max-width: 18%;
   display: block;
+  border-radius: 20px;
 }
 
 .nav5:hover .nave5 /*definição do hover span5*/ {
@@ -432,7 +437,7 @@ body /*definiçoes do body*/ {
   margin-bottom: 10px;
   height: 100%;
   min-width: 550px;
-  background-color: #707316;
+  background-color: #b6caf2;
 }
 
 .box2 .sec div /*definições das divs da section2*/ {
@@ -444,6 +449,9 @@ body /*definiçoes do body*/ {
   grid-area: box-0;
   text-align: center;
   background-color: #45af47;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box2 .sec .sec1 /*aba div1 da section2*/ {

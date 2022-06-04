@@ -150,7 +150,11 @@ body /*definiçoes do body*/ {
 
 .art .box1 /*article aba 1*/ {
   grid-area: box-1;
-  background-color: #3876f2;
+  background-color: #3084f2;
+}
+
+.art .box1 h1 /*article aba 1, definições título*/ {
+  text-align: center;
 }
 
 .art .box2 /*article aba 1*/ {

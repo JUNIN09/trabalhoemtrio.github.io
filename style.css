@@ -31,7 +31,7 @@ body /*definiçoes do body*/ {
   min-width: 550px;
   background-color: var(--cor-header);
   border-radius: 20px;
-  color: whitesmoke;
+  color: white;
 }
 
 .hea div /*definições especficas das divs em geral*/ {
@@ -155,7 +155,7 @@ body /*definiçoes do body*/ {
 .art .box1 /*article aba 1*/ {
   grid-area: box-1;
   background-color: var(--cor-article);
-  color: whitesmoke;
+  color: white;
 }
 
 .art .box1 h1 /*article aba 1, definições título*/ {
@@ -170,7 +170,7 @@ body /*definiçoes do body*/ {
 
 .art .box3 /*article aba 1*/ {
   grid-area: box-3;
-  color: whitesmoke;
+  color: white;
 }
 
 .foot /*definições gerais da footer*/ {
@@ -182,7 +182,7 @@ body /*definiçoes do body*/ {
   min-width: 550px;
   border-radius: 20px;
   background-color: var(--cor-footer);
-  color: whitesmoke;
+  color: white;
 }
 
 .foot .foot1 /*footer aba 1*/ {

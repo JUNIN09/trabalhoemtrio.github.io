@@ -563,6 +563,7 @@ body /*definiçoes do body*/ {
   display: block;
   background-color: white;
   border-radius: 10px;
+  color: #0d0d0d;
 }
 
 .hea1:hover .head1 /*definição do hover span5*/ {

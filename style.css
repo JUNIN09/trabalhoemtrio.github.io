@@ -3,15 +3,21 @@
 :root /*variaveis*/ {
   --fonte: "Poppins", sans-serif;
   --cor-do-fundo: #ff2121;
-  --cor-fonte: #0d0d0d;
   --cor-header: #006eff;
   --cor-article: #ff6700;
   --cor-grid: #f1f1f0;
   --cor-footer: #006fff;
 }
 
+:root {
+  --cor-fonte-header: white;
+  --cor-fonte-article: white;
+  --cor-fonte-nav: white;
+  --cor-fonte-footer: white;
+  --cor-fonte-grid: black;
+}
+
 * {
-  color: var(--corfonte);
   font-family: var(--fonte);
 }
 
@@ -31,7 +37,7 @@ body /*definiçoes do body*/ {
   min-width: 550px;
   background-color: var(--cor-header);
   border-radius: 20px;
-  color: white;
+  color: var(--cor-fonte-header);
 }
 
 .hea div /*definições especficas das divs em geral*/ {
@@ -155,7 +161,7 @@ body /*definiçoes do body*/ {
 .art .box1 /*article aba 1*/ {
   grid-area: box-1;
   background-color: var(--cor-article);
-  color: white;
+  color: var(--cor-fonte-article);
 }
 
 .art .box1 h1 /*article aba 1, definições título*/ {
@@ -165,12 +171,12 @@ body /*definiçoes do body*/ {
 .art .box2 /*article aba 1*/ {
   grid-area: box-2;
   z-index: 1;
-  background-color: white;
+  color: var(--cor-fonte-grid);
 }
 
 .art .box3 /*article aba 1*/ {
   grid-area: box-3;
-  color: white;
+  color: var(--cor-fonte-nav);
 }
 
 .foot /*definições gerais da footer*/ {
@@ -182,7 +188,7 @@ body /*definiçoes do body*/ {
   min-width: 550px;
   border-radius: 20px;
   background-color: var(--cor-footer);
-  color: white;
+  color: var(--cor-fonte-footer);
 }
 
 .foot .foot1 /*footer aba 1*/ {
@@ -211,6 +217,7 @@ body /*definiçoes do body*/ {
   justify-content: center;
   height: 100%;
   align-self: center;
+  color: var(--cor-fonte-nav);
 }
 
 .box3 .asi div /*definições especficas das divs em geral*/ {
@@ -554,6 +561,7 @@ body /*definiçoes do body*/ {
   display: flex;
   justify-content: center;
   padding-top: 21px;
+  color: var(--cor-fonte-footer);
 }
 
 .hea1 .head1 {
@@ -563,7 +571,7 @@ body /*definiçoes do body*/ {
   display: block;
   background-color: white;
   border-radius: 10px;
-  color: #0d0d0d;
+  color: black;
 }
 
 .hea1:hover .head1 /*definição do hover span5*/ {
